@@ -20,4 +20,13 @@ $('.all-items-link').on('click', function() {
 		let ths = $(this);
 		ths.find('.item').show();
 	});
+	$('.hidden-link').addClass('active');
+});
+
+$('.hidden-link').on('click', function() {
+	$('.list__items').each(function() {
+		let ths = $(this);
+		ths.find('.item').not(':first').hide();
+	});
+	$('.hidden-link').removeClass('active');
 });

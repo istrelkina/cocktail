@@ -1,0 +1,209 @@
+@media(max-width: 1230px){
+	.info__wrapper {
+		display: block;
+	}
+	.item{
+		&::before{
+			width: 93%;
+			height: 30px;
+		}
+	}
+	.ingredients, .stuff{
+		margin-bottom: 30px;
+	}
+	.ingredients-items li {
+	    list-style: none;
+	    padding: 0;
+	}
+}
+
+@media(max-width: 1000px){
+	.header__wrapper{
+		padding: 0;
+	}
+	.header__image{
+		img{
+			width: 470px;
+		}
+	}
+	.header__title{
+		padding-top: 95px;
+	}
+	.tabs-item {
+	    padding: 30px 30px 30px 0px;
+	    left: 300px;
+	}
+	.item{
+		display: block;
+	}
+	.item__image{
+		float: right;
+	}
+	.item__info {
+	    padding: 70px 20px 25px 30px;
+	}
+
+}
+
+@media(max-width: 940px){
+	
+	.list__items .list__item {
+		font-size: 16px;
+	}
+	.header__image img {
+	    width: 400px;
+	}
+	.subtitle{
+		font-size: 30px;
+	}
+	.title {
+		font-size: 42px;
+	}
+	.header__title {
+	    padding-top: 65px;
+	}
+	.list{
+		padding: 20px;
+	}
+	.item__image img {
+	    width: 225px;
+	    margin: 0 30px 0 10px;
+	}
+}
+
+
+@media(max-width: 880px){
+	
+	.info__title::before {
+       width: 200px;
+    }
+    .info__wrapper .ingredients {
+	    padding-right: 30px;
+	}
+	body{
+		font-size: 15px;
+	}
+	.item__image img {
+	    width: 210px;
+	    margin: 0 10px 0 10px;
+	}
+}
+@media(max-width: 820px){
+	.item__info .info-name {
+		font-size: 30px;
+	}
+	
+	.tabs-item {
+	    padding: 15px 15px 15px 0px;
+	    
+	}
+	.list{
+		padding: 15px;
+	}
+}
+@media(max-width: 760px){
+	
+	.item__image {
+	    float: none;
+	    padding-top: 55px;
+	    text-align: center;
+	}
+}
+@media(max-width: 710px){
+	.header__image img {
+	    width: 320px;
+	}
+	.subtitle {
+	    font-size: 24px;
+	}
+	.title {
+	    font-size: 32px;
+	    padding-bottom: 20px;
+	}
+	.header__title {
+	    padding-top: 60px;
+	}
+		    
+	
+	.item__info {
+	    padding: 5px 20px 25px 30px;
+	}
+	.item::before {
+		left: 15px;
+	}
+}
+@media(max-width: 600px){
+	.item__info .info-name{
+		text-align: center;
+	}
+	.header__title {
+	    
+	    width: 100%;
+	    
+	}
+	.header__image img {
+	    width: 100%;
+	}
+	.footer_wrapper{
+		display: block;
+	}
+	.footer__links{
+		padding: 30px 0px 0px 0px;
+	}
+	.list__items{
+		border: none;
+	}
+	.list{
+		padding: 0;
+	}
+	.tabs-item{
+		padding: 0;
+	}
+	.item__info {
+	    padding: 5px 10px 10px 15px;
+	}
+	.header__title {
+	    padding: 25px 0 0 5px;
+	}
+	.footer__shops{
+		img{
+			height: 80px;
+		}
+	}
+}
+
+@media(max-width: 480px){
+	.item__image img {
+	    width: 150px;
+	    //margin: 0 10px 0 10px;
+	}
+	body{
+		font-size: 13px;
+	}
+	.item__info .info-name {
+	    font-size: 24px;
+	}
+	.all-items {
+	    padding-top: 0px;
+	    margin-bottom: 30px;
+	}
+	.list__items .list__item {
+	    font-size: 15px;
+	}
+	.info__title::before {
+	    width: 160px;
+	}
+	.ingredients, .stuff {
+	    margin-bottom: 15px;
+	}
+	.subtitle {
+	    font-size: 20px;
+	}
+	.title {
+	    font-size: 28px;
+	    padding-bottom: 15px;
+	}
+	.item::before {
+	    left: 5px;
+	}
+}
